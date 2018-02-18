@@ -1,0 +1,9 @@
+[submodule "vendor/peatio"]
+	path = vendor/peatio
+	url = https://github.com/rubykube/peatio.git
+[submodule "vendor/peatio-sdk"]
+	path = vendor/peatio-sdk
+	url = https://github.com/rubykube/peatio-sdk.git
+[submodule "vendor/peatio-workbench"]
+	path = vendor/peatio-workbench
+	url = https://github.com/rubykube/peatio-workbench.git
