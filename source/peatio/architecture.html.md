@@ -1,0 +1,1 @@
+../vendor/peatio/docs/architecture.md

@@ -1,0 +1,1 @@
+../vendor/peatio-sdk/docs/DepositsApi.md

@@ -1,0 +1,1 @@
+../vendor/peatio/docs/setup-with-docker.md
