@@ -12,20 +12,13 @@
   </head>
   <body class="bg-white">
 
-    <%= partial "shared/navbar" %>
-
-    <div class="container">
-      <section class="py-5 section-text">
-        <div class="row">
-          <div class="col-md-3">
-            <%= partial "shared/sidebar" %>
-          </div>
-          <div class="col-md-9">
-            <%= yield %>
-          </div>
+    <section class="pt-5 section-text">
+      <div class="row">
+        <div class="col-md-12">
+          <%= yield %>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
 
   </body>
 </html>

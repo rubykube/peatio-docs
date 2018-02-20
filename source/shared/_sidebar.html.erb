@@ -1,0 +1,24 @@
+<h2 class="h5 bold pt-5">About</h2>
+<ul class="list-unstyled list-caret list-grid list-padding">
+  <% data.sidebar.pages.each do |page| %>
+    <li><a href="<%= page %>.html"><%= page.titleize %></a></li>
+  <% end %>
+</ul>
+
+<h2 class="h5 bold">Peatio</h2>
+<ul class="list-unstyled list-caret list-grid list-padding">
+  <% Dir["vendor/peatio/docs/**/*.md"].each do |file| %>
+      <% filename = File.basename file, ".md" %>
+      <% link = File.basename file.gsub(".md", ".html") %>
+      <li><a href="<%= link %>"><%= filename.titleize %></a></li>
+  <% end %>
+</ul>
+
+<h2 class="h5 bold">Peatio SDK</h2>
+<ul class="list-unstyled list-caret list-grid list-padding">
+  <% Dir["vendor/peatio-sdk/docs/**/*.md"].each do |file| %>
+      <% filename = File.basename file, ".md" %>
+      <% link = File.basename file.gsub(".md", ".html") %>
+      <li><a href="<%= link %>"><%= filename.titleize %></a></li>
+  <% end %>
+</ul>
